@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-main/>
-    <shop-content/>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -16,6 +16,7 @@ export default {
       showModal: false
     }
   },
+  // eslint-disable-next-line vue/no-unused-components
   components: { HeaderMain, ShopContent}
 }
 </script>
@@ -30,7 +31,7 @@ export default {
   margin-top: 60px;
 }
 .container{
-  max-width: 1200px;
+  max-width: 1360px;
   margin: auto;
 }
 </style>

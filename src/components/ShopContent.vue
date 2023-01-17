@@ -18,5 +18,7 @@ export default {
 .body-shop{
     display: flex;
     justify-content: center;
+    gap: 30px;
+    padding-top: 60px;
 }
 </style>

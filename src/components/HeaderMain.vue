@@ -3,6 +3,10 @@
         <header class="header">
             <div class="container">
                 <div class="header-wrap">
+                    <nav class="nav">
+                    <router-link :to="{ name: 'body' }">Home</router-link>
+                    <router-link :to="{ name: 'products' }">basket</router-link>
+                    </nav>
                     <shopping-cart/>
                 </div>
             </div>
@@ -24,6 +28,6 @@ export default {
 <style scoped>
 .header-wrap {
 display: flex;
-justify-content: flex-end;
+justify-content: space-between;
 }
 </style>
